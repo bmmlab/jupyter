@@ -24,7 +24,7 @@ setup_args = dict(
     author_email        = "jupyter@googlegroups.org",
     py_modules          = [],
     install_requires    = [
-        'notebook',
+        'notebook @ git+https://github.com/bmmlab/notebook.git@dev#egg=notebook',
         'qtconsole',
         'jupyter-console',
         'nbconvert',
